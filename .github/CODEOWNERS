@@ -1,0 +1,36 @@
+# CODEOWNERS file for search-utility-897
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-ux @Armor-test/dept-notifications @Armor-test/unit-governance
+
+# Directory ownership
+/pkg/ @Armor-test/team-research @Armor-test/squad-api
+/public/ @Armor-test/grp-api @Armor-test/dept-test @Armor-test/dept-logging
+/pages/ @Armor-test/squad-api @Armor-test/dept-release @Armor-test/team-frontend
+/vendor/ @Armor-test/squad-reporting @Armor-test/dept-data @Armor-test/squad-research
+/plugins/ @Armor-test/dept-reliability @Armor-test/grp-api
+/internal/ @Armor-test/dept-api @Armor-test/squad-performance
+/spec/ @Armor-test/squad-api @Armor-test/unit-cloud
+/static/ @Armor-test/squad-frontend @Armor-test/unit-design @Armor-test/squad-qa
+/test/ @Armor-test/dept-billing @Armor-test/grp-reporting @Armor-test/dept-data
+/api/ @Armor-test/squad-cloud @Armor-test/dept-ui
+/utils/ @Armor-test/grp-search @Armor-test/squad-tooling
+/docs/ @Armor-test/team-governance @Armor-test/dept-logging @Armor-test/squad-mobile
+/styles/ @Armor-test/squad-tooling @Armor-test/team-security @Armor-test/unit-cloud
+
+# File type ownership
+*.gradle @Armor-test/team-security @Armor-test/unit-test @Armor-test/grp-search
+*.h @Armor-test/squad-ux @Armor-test/squad-cloud @Armor-test/squad-mobile
+*.c @Armor-test/dept-security @Armor-test/grp-payments @Armor-test/grp-integration
+*.js @Armor-test/unit-test @Armor-test/squad-product
+*.rs @Armor-test/unit-devops @Armor-test/team-governance
+*.proto @Armor-test/grp-storage @Armor-test/unit-governance @Armor-test/grp-integration
+*.cpp @Armor-test/grp-search @Armor-test/grp-payments
+*.sh @Armor-test/unit-governance @Armor-test/squad-frontend
+*.toml @Armor-test/squad-search @Armor-test/team-research
+*.graphql @Armor-test/squad-performance @Armor-test/dept-automation @Armor-test/dept-data
+*.java @Armor-test/dept-data @Armor-test/team-logging @Armor-test/squad-tooling
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
